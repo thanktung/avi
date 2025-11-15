@@ -22,7 +22,7 @@ def get_processed_image():
 
 
 # === GUI chính ===
-class AOI_GUI(QtWidgets.QMainWindow):
+class MainUI(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("AOI Control Panel") #Tên
